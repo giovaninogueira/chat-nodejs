@@ -1,0 +1,29 @@
+{
+  "name": "chat-nodejs",
+  "version": "1.0.0",
+  "description": "chat de alunos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "alunos",
+    "nodejs",
+    "fatec"
+  ],
+  "author": "Giovani Cassiano Nogueira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "sequelize": "^6.12.4",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  }
+}
