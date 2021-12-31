@@ -1,9 +1,8 @@
 import express from "express";
+import { userCreateController } from "../app/uses-cases/index.js";
 
 const router = express.Router();
 
-router.get('/register', (req, resp) => {
-    resp.send('dwqdwwq');
-});
+router.post("/register", userCreateController.handler.bind(userCreateController));
 
 export { router };
